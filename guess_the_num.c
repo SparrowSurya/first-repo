@@ -13,7 +13,7 @@ int main()
     do {
         printf("Enter the maximum limit for the guess (minimum limit is 0): ");
         scanf("%d", &max_lim);
-    } while (max_lim<0);
+    } while (max_lim<1);
 
     // tries
     do {
